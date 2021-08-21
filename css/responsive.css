@@ -1,0 +1,215 @@
+@media screen and (max-width: 1500px) {
+    .container-form-reserve{
+        width: 80%;
+    }
+}
+@media screen and (max-width: 1280px){
+    .more-info-right-under{
+        font-size: 0.8em;
+    }
+    .container-contact-cont{
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    .flex-container{
+        display: block;
+    }
+    .menu-left-top, .main-middle, .more-info-right-under{
+        width: 90%;
+        margin-top: 1em;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .menu-left-top li, .more-info-right-under .more-cont{
+        display: inline-block;
+        width: 20%;
+    }
+    .container-contact-cont{
+        width: 90%;
+    }
+    .container-form-reserve{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .container-form-reserve{
+        display: block;
+        font-size: 2em;
+    }
+    .container-select{
+        margin: 0;
+        width: 80%;
+    }
+    .container-select .combo{
+        width: 70%;
+        font-size: 1em;
+    }
+    .container-left-reserve, .conainer-cont-Tours, .container-right-reserve{
+        width: 80%;
+        margin: auto;
+    }
+    .nav1 .container-nav{
+        width: 100%;
+    }
+    .container-contact-cont{
+        display: inline-block;
+        width: 100%;
+    }
+    .container-information-contact{
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .container-right{
+        width: 80%;
+        margin-top: 2em;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    button[type="button"]{
+        font-size: 2em;
+    }
+}
+
+@media screen and (max-width: 700px){
+    .container-form-reserve{
+        font-size: 1.5em;
+    }
+    .main-middle .cont,.main-tours .cont{
+        width: calc(40%);
+    }
+    .main-middle .cont:hover, .main-tours .cont:hover{
+        width: calc(50%);
+    }
+    #nav .menu-burger{
+        display: block;
+        cursor: pointer;
+    }
+    #nav .links-nav{
+        position: fixed;
+        top: 7em;
+        background: rgba(204, 204, 204, 0.9);
+        left:0;
+        height: 100%;
+        transition: 1s;
+        width: 0;
+        overflow: hidden;
+        border-bottom: none;
+    }
+    #nav .links-nav a{
+        display: block;
+        width: 100%;
+        /* height: 5em; */
+        padding: 20px;
+        text-align: center;
+        border-bottom: none;
+        color: rgb(0, 0, 0);
+        padding: 2.5em 0;
+    }
+    #nav .links-nav a:hover{
+        background: rgba(51, 51, 51, 0.2);
+    }
+    #nav .links-nav .active{
+        border-bottom: none;
+    }
+    .more-info-right-under{
+        font-size: 1.5em;
+    }
+    .more-info-right-under .more-cont{
+        display: inline-block;
+        width: 45%;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .main-middle .cont, .main-tours .cont{
+        width: calc(80%);
+    }
+    .main-middle .cont:hover, .main-tours .cont:hover{
+        width: calc(90%);
+    }
+    .menu-left-top li{
+        display: inline-block;
+        width: 40%;
+    }
+    .more-info-right-under{
+        font-size: 1.5em;
+    }
+    .more-info-right-under .more-cont{
+        display: inline-block;
+        width: 90%;
+    }
+    .overlay img {
+        max-width: 70%;
+        margin-left: 5.5em;
+    }
+    .container-titles-contact{
+        font-size: 1.5em;
+    }
+    .container-information-contact h4{
+        font-size: 1.5em;
+    }
+    .container-select .combo{
+        width: 90%;
+    }
+    button[type="button"]{
+        font-size: 1.5em;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .container-logo{
+        width: 10em;
+    }
+    .overlay img {
+        max-width: 70%;
+        margin-left: 4.5em;
+    }
+    .footer .fab{
+        margin-top: 1em;
+        margin-bottom: 1em;
+        font-size: 2em;
+    }
+    .container-select .combo{
+        font-size: 0.7em;
+    }
+    button[type="button"]{
+        font-size: 1em;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .cont-animate{
+        display: none;
+    }
+    .overlay img {
+        max-width: 70%;
+        margin-left: 3.8em;
+    }
+    .menu-left-top li{
+        display: inline-block;
+        width: 80%;
+    }
+    .more-info-right-under{
+        font-size: 1em;
+    }
+    .container-titles-contact{
+        font-size: 1em;
+    }
+    .container-contact-cont{
+        font-size: 0.8em;
+    }
+    .container-information-contact h4{
+        font-size: 1em;
+    }
+}
+
+@media screen and (max-width: 350px){
+    .overlay img {
+        max-width: 70%;
+        margin-left: 2.8em;
+    }
+}

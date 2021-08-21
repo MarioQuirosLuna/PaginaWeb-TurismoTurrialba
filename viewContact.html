@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flora y Fauna, Santa teresita</title>
+    <meta description="description" content="Proyecto de Lenguajes para aplicaciones comerciales, UCR.">
+    <link rel="shortcut icon" href="#">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/main-menu.css">
+    <link rel="stylesheet" href="css/main-middle.css">
+    <link rel="stylesheet" href="css/main-more.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/viewContact.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <script src="https://kit.fontawesome.com/166afcc199.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="block-container">
+        <header class="header">
+            <nav id="nav" class="nav1">
+                <div class="container-nav">
+                    <div class="cont-logo-animate">
+                        <div class="container-logo">
+                            <div class="card">
+                                <div class="logo-cont">
+                                    <img src="img/logo-color.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cont-animate" id="cont-animate">
+                            <canvas id="canvas" class="canvas"></canvas>
+                        </div>
+                    </div>
+                    <div class="links-nav" id="links-nav">
+                        <a class="btnNav" href="index.html" id="enlace-" class="btn-header">Inicio</a>
+                        <a class="btnNav" href="viewTours.html" id="enlace-" class="btn-header">Tours</a>
+                        <a class="btnNav active" href="viewContact.html" id="enlace-" class="btn-header">Contactos</a>
+                    </div>
+                    <!-- TODO: colocar icono en menu hamburguesa en hover -->
+                    <div class="menu-burger" id="menu-burger">
+                        <span>&#9776;</span>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <div class="container-contact">
+            <div class="container-titles-contact">
+                <h2>Contacta con nosotros</h2>
+                <h3>Atencion todos los dias de la semana</h3>
+            </div>
+            <div class="container-contact-cont">
+                <div class="container-information-contact">
+                    <p>
+                        <br>
+                        Aquí, los visitantes disfrutarán de hermosas zonas verdes y 
+                        maravillas de la naturaleza para disfrutar de sus vacaciones ideales.
+                        <br><br>
+                        Si quieres informaci&oacute;n sobre cualquiera de nuestros viajes, 
+                        rellena el formulario y nos contactaremos contigo lo antes posible.
+                        <br><br>
+                        Muchas gracias.
+                    </p>
+                    <br>
+                    <h4>Direcci&oacute;n:</h4>
+                    <p>
+                        Provincia de Cargado, cant&oacute;n Turrialba, distrito Santa Teresita, Parque Miguel Valerio. 
+                    </p>
+                    <br>
+                    <h4>Tel&eacute;fono:</h4>
+                    <p>+506 9999 1111</p>
+                    <br>
+                    <br>
+                    <h4>Facebook:</h4>
+                    <p>Flora y Fauna, ST</p>
+                    <h4>Administraci&oacute;n:</h4>
+                    <p>correonaturaleza@gmail.com</p>
+                    <h4>Sugerencias:</h4>
+                    <p>correoFauna@gmail.com</p>
+                    <h4>Contacto personal:</h4>
+                    <p>correoFlora@gmail.com</p>
+                    <br><br>
+                    <p>Gracias por preferirnos.</p>
+                </div>
+                <div class="container-right">
+                    <div class="container-form">
+                        <h2>Para recibir mayor informaci&oacute;n</h2>
+                        <form action="">
+                            <div>
+                                <label for="nombre"> Nombre: </label>
+                            </div>
+                            <div>
+                                <input type="text" placeholder="Ingrese su nombre" required/>
+                            </div>
+                            <div>
+                                <label for="mail">Correo Electronico:</label>
+                            </div>
+                            <div>
+                                <input type="email" placeholder="Correo" required/>
+                            </div>
+                            <div>
+                                <label for="telefono">Tel&eacute;fono:</label>
+                            </div>
+                            <div>
+                                <input type="tel" placeholder="Tel&eacute;fono" required/>
+                            </div>
+                            <div>
+                                <label for="comentario">Comentario:</label>
+                            </div>
+                            <div>
+                                <textarea rows="4" cols="15" placeholder="Comentario"></textarea>
+                            </div>
+                            <div>
+                                <button id="enviar" type="submit">Enviar</button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="map-cont">
+                        <div class="container-map">
+                            <h3>Encuentranos en:</h3>
+                            <br><br>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3057.5214767463217!2d-83.64441971382841!3d9.975584009672941!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8fa0d252b4d0ced7%3A0x3384f5d7dc5b38b1!2sParque%20Miguel%20Valerio%2C%20Provincia%20de%20Cartago%2C%20Santa%20Teresita!5e1!3m2!1ses!2scr!4v1621749518036!5m2!1ses!2scr" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="related-links">
+                <h4 class="title">Sitios relacionados</h4>
+                <a href="http://www.sinac.go.cr/ES/visasilves/Paginas/default.aspx" target="_blank">
+                    <img src="img/svg/trees.svg" alt="" width="32" height="32">
+                    <p>SINAC Vida Silvestre</p>
+                </a>
+                <a href="http://www.sinac.go.cr/ES/ac/accvc/mng/Paginas/default.aspx" target="_blank">
+                    <img src="img/svg/landscape.svg" alt=""  width="32" height="32">
+                    <p>Monumento Guayabo</p>
+                </a>
+                <a href="https://si.cultura.cr/infraestructura/museo-ferroviario-peralta.html" target="_blank">
+                    <img src="img/svg/train.svg" alt=""  width="32" height="32">
+                    <p>Museo Ferroviario Peralta</p>
+                </a>
+                <a href="https://www.tripadvisor.es/Attractions-g309234-Activities-c57-Turrialba_Province_of_Cartago.html" target="_blank">
+                    <img src="img/svg/001-volcan.svg" alt=""  width="32" height="32">
+                    <p>Parques y atracciones naturales de Turrialba</p>
+                </a>
+            </div>
+            <div class="container-personal-contacts">
+                <a href="https://www.linkedin.com/in/mario-quir%C3%B3s-luna-b99050206/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/Takyouku" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://twitter.com/home?lang=es" target="_blank"><i class="fab fa-twitter-square"></i></a>
+            </div>
+            <div class="copyright">
+                <p>Realizado por Mario Quir&oacute;s Luna, para la UCR con fines educativos.</p>
+            </div>
+        </footer>
+    </div>
+    <script type="text/javascript" src="js/filter.js"></script>
+    <script type="text/javascript" src="js/scripts.js"></script>
+    <script type="text/javascript" src="js/animate.js"></script>
+</body>
+</html>

@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flora y Fauna, Santa teresita</title>
+    <meta description="description" content="Proyecto de Lenguajes para aplicaciones comerciales, UCR.">
+    <link rel="shortcut icon" href="#">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/main-menu.css">
+    <link rel="stylesheet" href="css/main-middle.css">
+    <link rel="stylesheet" href="css/main-more.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/viewTours.css">
+    <link rel="stylesheet" href="css/overlay.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <script src="https://kit.fontawesome.com/166afcc199.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="block-container">
+        <header class="header">
+            <nav id="nav" class="nav1">
+                <div class="container-nav">
+                    <div class="cont-logo-animate">
+                        <div class="container-logo">
+                            <div class="card">
+                                <div class="logo-cont">
+                                    <img src="img/logo-color.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cont-animate" id="cont-animate">
+                            <canvas id="canvas" class="canvas"></canvas>
+                        </div>
+                    </div>
+                    <div class="links-nav" id="links-nav">
+                        <a class="btnNav" href="index.html" id="enlace-" class="btn-header">Inicio</a>
+                        <a class="btnNav active" href="viewTours.html" id="enlace-" class="btn-header">Tours</a>
+                        <a class="btnNav" href="viewContact.html" id="enlace-" class="btn-header">Contactos</a>
+                    </div>
+                    <!-- TODO: colocar icono en menu hamburguesa en hover -->
+                    <div class="menu-burger" id="menu-burger">
+                        <span>&#9776;</span>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <div class="container-tours-main">
+            <div class="grid-container">
+                <div id="main-tours"class="main-tours">
+                    <div name="paisajes" class="cont" data-description="Precio: ₡20 000 por persona - Promoci&oacute;n familiar: -50% por persona - Paquetes especiales para excursiones - Recorrido: 4.5 km">
+                        <div class="cont-img" >
+                            <img loading="lazy" src="img/imgPlace/paisajes/volcan.jpg" alt="img">
+                        </div>
+                        <div class="cont-text">
+                            <h4>El Volc&aacute;n</h4>
+                        </div>
+                    </div>
+                    <div name="paisajes" class="cont" data-description="Precio: ₡30 000 por persona - Promoci&oacute;n familiar: -20% por persona - Paquetes especiales para excursiones - Recorrido: 8 km">
+                        <div class="cont-img" >
+                            <img loading="lazy" src="img/imgPlace/paisajes/paisaje-arboles.jpg" alt="img">
+                        </div>
+                        <div class="cont-text">
+                            <h4>El Aguacate</h4>
+                        </div>
+                    </div>
+                    <div name="paisajes" class="cont" data-description="Precio: ₡15 000 por persona - Promoci&oacute;n familiar: -10% por persona - Paquetes especiales para excursiones - Recorrido: 4 km">
+                        <div class="cont-img" >
+                            <img loading="lazy" src="img/imgPlace/paisajes/vista-Finca.jpg" alt="img">
+                        </div>
+                        <div class="cont-text">
+                            <h4>El Mirador</h4>
+                        </div>
+                    </div>
+                    <div name="paisajes" class="cont" data-description="Precio: ₡5 000 por persona - Paquetes especiales para excursiones - Recorrido: 2 km">
+                        <div class="cont-img" >
+                            <img loading="lazy" src="img/imgPlace/paisajes/paisaje1.jpg" alt="img">
+                        </div>
+                        <div class="cont-text">
+                            <h4>El Tigrillo</h4>
+                        </div>
+                    </div>
+                    <div name="paisajes" class="cont" data-description="Precio: ₡10 000 por persona - Paquetes especiales para excursiones - Recorrido: 4 km">
+                        <div class="cont-img" >
+                            <img loading="lazy" src="img/imgPlace/paisajes/reventazon.jpg" alt="img">
+                        </div>
+                        <div class="cont-text">
+                            <h4>Reventaz&oacute;n</h4>
+                        </div>
+                    </div>
+                    <div name="paisajes" class="cont" data-description="Precio: ₡25 000 por persona - Paquetes especiales para excursiones - Recorrido: 4 km">
+                        <div class="cont-img" >
+                            <img loading="lazy" src="img/imgPlace/paisajes/rio.jpg" alt="img">
+                        </div>
+                        <div class="cont-text">
+                            <h4>Rios helados</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <section class="overlay" id="overlay">
+                <div class="container-img">
+                    <img src="" alt="">
+                </div>
+                <p class="description"></p>
+            </section>
+            <section id="form-reserve"class="form-reserve">
+                <div class="container-form-reserve">
+                    <div class="container-left-reserve">
+                        <form action="">
+                            <div>
+                                <label for="nombre"> Nombre: </label>
+                            </div>
+                            <div>
+                                <input type="text" placeholder="Ingrese su nombre" required/>
+                            </div>
+                            <div>
+                                <label for="mail">Correo Electronico:</label>
+                            </div>
+                            <div>
+                                <input type="email" placeholder="Correo" required/>
+                            </div>
+                            <div>
+                                <label for="telefono">Tel&eacute;fono:</label>
+                            </div>
+                            <div>
+                                <input type="tel" placeholder="Tel&eacute;fono" required/>
+                            </div>
+                            <div>
+                                <input class="checkFamily" name="family" type="checkbox" onchange="showTours(checked, name);"><label>Viaje Familiar</label>    
+                            </div>
+                            <div>
+                                <input class="checkOrganization" name="organization" type="checkbox" onchange="showTours(checked, name);"><label>Organizaci&oacute;n Turistica</label>    
+                            </div>
+                        </form>
+                    </div>
+                    <div class="conainer-cont-Tours">
+                        <div class="container-middle-reserve familyTours" id="familyTours">
+                            <h2>Para familias</h2>
+                            <div>
+                                <input type="checkbox" name="tigrillo" onchange="addTour(checked,name,'family');"><label> ₡5 000 - El Tigrillo</label>    
+                            </div>
+                            <div>
+                                <input type="checkbox" name="reventazon" onchange="addTour(checked,name,'family');"><label>₡10 000 - Reventaz&oacute;n</label>  
+                            </div>
+                            <div>
+                                <input type="checkbox" name="mirador" onchange="addTour(checked,name,'family');"><label>₡15 000 - El Mirador</label>    
+                            </div>
+                            <div>
+                                <input type="checkbox" name="volcan" onchange="addTour(checked,name,'family');"><label>₡20 000 - El Volc&aacute;n</label>  
+                            </div>
+                            <div>
+                                <input type="checkbox" name="rios" onchange="addTour(checked,name,'family');"><label>₡25 000 - Rios helados</label>    
+                            </div>
+                            <div>
+                                <input type="checkbox" name="aguacate" onchange="addTour(checked,name,'family');"><label>₡30 000 - El Aguacate</label>  
+                            </div>
+                        </div>
+                        <div class="container-middle-reserve organizationTours" id="organizationTours">
+                            <h2>Para organizaciones</h2>
+                            <div>
+                                <input type="checkbox" name="tigrillo" onchange="addTour(checked,name,'organization');"><label> ₡50 000 - El Tigrillo</label>    
+                            </div>
+                            <div>
+                                <input type="checkbox" name="reventazon" onchange="addTour(checked,name,'organization');"><label>₡100 000 - Reventaz&oacute;n</label>  
+                            </div>
+                            <div>
+                                <input type="checkbox" name="mirador" onchange="addTour(checked,name,'organization');"><label>₡150 000 - El Mirador</label>    
+                            </div>
+                            <div>
+                                <input type="checkbox" name="volcan" onchange="addTour(checked,name,'organization');"><label>₡200 000 - El Volc&aacute;n</label>  
+                            </div>
+                            <div>
+                                <input type="checkbox" name="rios" onchange="addTour(checked,name,'organization');"><label>₡250 000 - Rios helados</label>    
+                            </div>
+                            <div>
+                                <input type="checkbox" name="aguacate" onchange="addTour(checked,name,'organization');"><label>₡300 000 - El Aguacate</label>  
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container-right-reserve">
+                        <div class="container-select">
+                            <div>
+                                <select name="combo-People" id="combo-People" class="combo" onchange="addNumberPeople(value);">
+                                    <option value="1">Total personas</option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="5">5</option>
+                                    <option value="10">10</option>
+                                    <option value="20">20</option>
+                                    <option value="30">30</option>
+                                </select>
+                            </div>
+                            <div>
+                                <select name="combo-Tours" id="combo-Tours" class="combo" onchange="addNumberTours(value);";>
+                                    <option value="1">Total tours</option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="5">5</option>
+                                    <option value="10">10</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="container-count">
+                            <div class="reserve-category">
+                                <h3>Ahorro:</h3>
+                                <label id="discount">0</label>
+                            </div>
+                            <div class="reserve-category">
+                                <h3>Total:</h3>
+                                <div>
+                                    <div>
+                                        <label for="resultFamily">Por persona: </label>
+                                        <label id="resultFamily">0</label>  
+                                    </div>
+                                    <div>
+                                        <label for="resultOrganization">Organizacion sin limite de personas: </label>
+                                        <label id="resultOrganization">0</label>
+                                    </div>
+                                </div>  
+                            </div>
+                        </div>
+                        <div>
+                            <button id="enviar" class="btn-reserve" type="button">Reservar</a></button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <footer class="footer">
+            <div class="related-links">
+                <h4 class="title">Temas relacionados</h4>
+                <a href="http://www.sinac.go.cr/ES/visasilves/Paginas/default.aspx" target="_blank">
+                    <img src="img/svg/trees.svg" alt="" width="32" height="32">
+                    <p>SINAC Vida Silvestre</p>
+                </a>
+                <a href="http://www.sinac.go.cr/ES/ac/accvc/mng/Paginas/default.aspx" target="_blank">
+                    <img src="img/svg/landscape.svg" alt=""  width="32" height="32">
+                    <p>Monumento Guayabo</p>
+                </a>
+                <a href="https://si.cultura.cr/infraestructura/museo-ferroviario-peralta.html" target="_blank">
+                    <img src="img/svg/train.svg" alt=""  width="32" height="32">
+                    <p>Museo Ferroviario Peralta</p>
+                </a>
+                <a href="https://www.tripadvisor.es/Attractions-g309234-Activities-c57-Turrialba_Province_of_Cartago.html" target="_blank">
+                    <img src="img/svg/001-volcan.svg" alt=""  width="32" height="32">
+                    <p>Parques y atracciones naturales de Turrialba</p>
+                </a>
+            </div>
+            <div class="container-personal-contacts">
+                <a href="https://www.linkedin.com/in/mario-quir%C3%B3s-luna-b99050206/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/Takyouku" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://twitter.com/home?lang=es" target="_blank"><i class="fab fa-twitter-square"></i></a>
+            </div>
+            <div class="copyright">
+                <p>Realizado por Mario Quir&oacute;s Luna, para la UCR con fines educativos.</p>
+            </div>
+        </footer>
+    </div>
+    <script type="text/javascript" src="js/filter.js"></script>
+    <script type="text/javascript" src="js/overlay.js"></script>
+    <script type="text/javascript" src="js/scripts.js"></script>
+    <script type="text/javascript" src="js/scriptsTours.js"></script>
+    <script type="text/javascript" src="js/animate.js"></script>
+</body>
+</html>

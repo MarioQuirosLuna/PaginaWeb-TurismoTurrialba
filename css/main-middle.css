@@ -1,0 +1,43 @@
+.main-middle{
+    background: rgba(0,0,0,0.3);
+    width: 75%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 2em;
+    padding: 0.5em 0;
+    border-radius: 10px;
+}
+.main-middle .cont{
+    /* width: 30%; */
+    width: calc(30%);
+    height: 20em;
+    box-shadow: 0 0 0.3em rgba(0,0,0,.5);
+    margin-bottom: 3em;
+    transition: 0.8s;
+    cursor: pointer;
+}
+.main-middle .cont:hover{
+    width: 38%;
+    height: 22em;
+    transition: 0.8s;
+}
+.main-middle .cont-img{
+    height: 90%;
+    width: 100%;
+}
+.main-middle .cont-img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.main-middle .cont-text{
+    background: rgba(0,0,0,.3);
+    color: #CCC;
+    height: 10%;
+    font-size: 1.2em;
+    line-height: 2em;
+    font-weight: 300;
+    text-align: center;
+}

@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flora y Fauna, Santa teresita</title>
+    <meta description="description" content="Proyecto de Lenguajes para aplicaciones comerciales, UCR.">
+    <link rel="shortcut icon" href="#">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/main-menu.css">
+    <link rel="stylesheet" href="css/main-middle.css">
+    <link rel="stylesheet" href="css/main-more.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/overlay.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <script src="https://kit.fontawesome.com/166afcc199.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="block-container">
+        <header class="header">
+            <nav id="nav" class="nav1">
+                <div class="container-nav">
+                    <div class="cont-logo-animate">
+                        <div class="container-logo">
+                            <div class="card">
+                                <div class="logo-cont">
+                                    <img src="img/logo-color.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cont-animate" id="cont-animate">
+                            <canvas id="canvas" class="canvas"></canvas>
+                        </div>
+                    </div>
+                    <div class="links-nav" id="links-nav">
+                        <a class="btnNav active" href="index.html" id="enlace-" class="btn-header">Inicio</a>
+                        <a class="btnNav" href="viewTours.html" id="enlace-" class="btn-header">Tours</a>
+                        <a class="btnNav" href="viewContact.html" id="enlace-" class="btn-header">Contactos</a>
+                    </div>
+                    <div class="menu-burger" id="menu-burger">
+                        <span>&#9776;</span>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <div class="flex-container">
+            <div class="menu-left-top">
+                <div class="menu-left-top-nav">
+                    <ul>
+                        <li class="filter active" data-name='todos'>Todos</li>
+                        <li class="filter" data-name="paisajes">Paisajes</li>
+                        <li class="filter" data-name="fauna">Fauna</li>
+                        <li class="filter" data-name="flora">Flora</li>
+                    </ul>
+                </div>
+            </div>
+            <div id="main-middle" class="main-middle">
+                
+                <!-- Paisajes -->
+
+                <div name="paisajes" class="cont" data-description="Posibilidad de mirar preciosos arcoiris que aparecen en la zona">
+                    <div class="cont-img" >
+                        <img loading="lazy" src="img/imgPlace/paisajes/arcoiris.jpg" alt="img">
+                    </div>
+                    <div class="cont-text">
+                        <h4>Bellos arcoiris</h4>
+                    </div>
+                </div>
+                <div name="paisajes" class="cont" data-description="Recorridos por cenderos asombrosos">
+                    <div class="cont-img" >
+                        <img loading="lazy" src="img/imgPlace/paisajes/paisaje-arboles.jpg" alt="img">
+                    </div>
+                    <div class="cont-text">
+                        <h4>Paisajes inolvidables</h4>
+                    </div>
+                </div>
+                <div name="paisajes" class="cont" data-description="Entre en contacto con la naturaleza y sienta la libertad del campo">
+                    <div class="cont-img" >
+                        <img loading="lazy" src="img/imgPlace/paisajes/paisaje1.jpg" alt="img">
+                    </div>
+                    <div class="cont-text">
+                        <h4>Tours en la naturaleza</h4>
+                    </div>
+                </div>
+                <div name="paisajes" class="cont" data-description="Asombrosas vistas hacia el volc&aacute;n turrialba">
+                    <div class="cont-img" >
+                        <img loading="lazy" src="img/imgPlace/paisajes/volcan.jpg" alt="img">
+                    </div>
+                    <div class="cont-text">
+                        <h4>Bellas vistas</h4>
+                    </div>
+                </div>
+                <div name="paisajes" class="cont" data-description="Liberese del estres de la ciudad">
+                    <div class="cont-img" >
+                        <img loading="lazy" src="img/imgPlace/paisajes/paisaje2.jpg" alt="img">
+                    </div>
+                    <div class="cont-text">
+                        <h4>Naturaleza total</h4>
+                    </div>
+                </div>
+                <div name="paisajes" class="cont" data-description="Vistas preciosas hacia el rio reventaz&oacute;n">
+                    <div class="cont-img" >
+                        <img loading="lazy" src="img/imgPlace/paisajes/reventazon.jpg" alt="img">
+                    </div>
+                    <div class="cont-text">
+                        <h4>Bellos paisajes</h4>
+                    </div>
+                </div>
+                <div name="paisajes" class="cont" data-description="Refrescantes rios naturales">
+                    <div class="cont-img" >
+                        <img loading="lazy" src="img/imgPlace/paisajes/rio.jpg" alt="img">
+                    </div>
+                    <div class="cont-text">
+                        <h4>Rios</h4>
+                    </div>
+                </div>
+                <div name="paisajes" class="cont" data-description="Un bello mirador">
+                    <div class="cont-img" >
+                        <img loading="lazy" src="img/imgPlace/paisajes/vista-Finca.jpg" alt="img">
+                    </div>
+                    <div class="cont-text">
+                        <h4>Mirador</h4>
+                    </div>
+                </div>
+                <div name="paisajes" class="cont" data-description="Aire fresco y puro en la naturaleza">
+                    <div class="cont-img" >
+                        <img loading="lazy" src="img/imgPlace/paisajes/paisaje3.jpg" alt="img">
+                    </div>
+                    <div class="cont-text">
+                        <h4>Relajaci&oacute;n total</h4>
+                    </div>
+                </div>
+                <div name="paisajes" class="cont" data-description="Bellas tardes para caminar">
+                    <div class="cont-img" >
+                        <img loading="lazy" src="img/imgPlace/paisajes/paisaje4.jpg" alt="img">
+                    </div>
+                    <div class="cont-text">
+                        <h4>Tardes asombrosas</h4>
+                    </div>
+                </div>
+                <div name="paisajes" class="cont" data-description="Muchos &aacute;rboles frutales">
+                    <div class="cont-img" >
+                        <img loading="lazy" src="img/imgPlace/paisajes/paisaje5.jpg" alt="img">
+                    </div>
+                    <div class="cont-text">
+                        <h4>Arboles frutales</h4>
+                    </div>
+                </div>
+                <!-- FAUNA -->
+
+                <div name="fauna" class="cont" data-description="Los dasipódidos (Dasypodidae), conocidos comúnmente como armadillos. Se caracterizan por poseer un caparazón dorsal. ">
+                    <div class="cont-img">
+                        <img loading="lazy" src="img/imgPlace/Fauna/armadillo.jpg" alt="img">
+                    </div>
+                    <div class="cont-text">
+                        <h4>Armadillo</h4>
+                    </div>
+                </div>
+                <div name="fauna" class="cont" data-description="El Colibrí es un género de aves apodiformes pertenecientes a la subfamilia de los troquilinos (Trochilinae).">
+                    <div class="cont-img">
+                        <img loading="lazy" src="img/imgPlace/Fauna/colibri.jpg" alt="img">
+                    </div>
+                    <div class="cont-text">
+                        <h4>Colibr&iacute;es</h4>
+                    </div>
+                </div>
+                <div name="fauna" class="cont" data-description="El conejo común o conejo europeo (Oryctolagus cuniculus) es una especie de mamífero lagomorfo de la familia Leporidae, y el único miembro actual del género Oryctolagus.">
+                    <div class="cont-img">
+                        <img loading="lazy" src="img/imgPlace/Fauna/conejo.jpg" alt="img">
+                    </div>
+                    <div class="cont-text">
+                        <h4>Conejos salvajes</h4>
+                    </div>
+                </div>
+                <div name="fauna" class="cont" data-description="Las serpientes de coral, serpientes rabo de ají o coralillos son un grupo de serpientes venenosas de la familia Elapidae propias de zonas tropicales.">
+                    <div class="cont-img">
+                        <img loading="lazy" src="img/imgPlace/Fauna/Coral.jpg" alt="img">
+                    </div>
+                    <div class="cont-text">
+                        <h4>Coral</h4>
+                    </div>
+                </div>
+                <div name="fauna" class="cont" data-description="La mariposa monarca (Danaus plexippus) es una especie de lepidóptero ditrisio de la familia Nymphalidae, superfamilia Papilionoidea.">
+                    <div class="cont-img">
+                        <img loading="lazy" src="img/imgPlace/Fauna/mariposas.jpg" alt="img">
+                    </div>
+                    <div class="cont-text">
+                        <h4>Mariposas</h4>
+                    </div>
+                </div>
+                <div name="fauna" class="cont" data-description="El mono carablanca o capuchino​ (Cebus capucinus) es un mono del nuevo mundo de tamaño medio perteneciente a la familia Cebidae. ">
+                    <div class="cont-img">
+                        <img loading="lazy" src="img/imgPlace/Fauna/monocariblanco.jpg" alt="img">
+                    </div>
+                    <div class="cont-text">
+                        <h4>Cara Blanca</h4>
+                    </div>
+                </div>
+                <div name="fauna" class="cont" data-description="Los folívoros (Folivora) o filófagos (Phyllophaga) son un suborden de mamíferos placentarios del orden Pilosa, comúnmente conocidos como perezosos o pereza.">
+                    <div class="cont-img">
+                        <img loading="lazy" src="img/imgPlace/Fauna/perezoso.jpg" alt="img">
+                    </div>
+                    <div class="cont-text">
+                        <h4>Perezosos</h4>
+                    </div>
+                </div>
+                <div name="fauna" class="cont" data-description="La aratinga verde (Psittacara holochlorus),​ también denominada perico verde,​ es una especie de ave psitaciforme de la familia Psittacidae.">
+                    <div class="cont-img">
+                        <img loading="lazy" src="img/imgPlace/Fauna/pericos.jpg" alt="img">
+                    </div>
+                    <div class="cont-text">
+                        <h4>Pericos</h4>
+                    </div>
+                </div>
+                <div name="fauna" class="cont" data-description="El coatí de nariz blanca (Nasua narica), también conocido como pizote, es un mamífero carnívoro que habita en Centroamérica y el sector meridional de Norteamérica.">
+                    <div class="cont-img">
+                        <img loading="lazy" src="img/imgPlace/Fauna/pizote.jpg" alt="img">
+                    </div>
+                    <div class="cont-text">
+                        <h4>Pizote</h4>
+                    </div>
+                </div>
+                <div name="fauna" class="cont" data-description="Los ranfástidos (Ramphastidae), conocidos comúnmente como tucanes, son una familia de aves ranfástidas del orden de los piciformes es muy amplia ya que alberga seis géneros y cuarenta y dos especies diferentes de tucanes.">
+                    <div class="cont-img">
+                        <img loading="lazy" src="img/imgPlace/Fauna/tucan.jpg" alt="img">
+                    </div>
+                    <div class="cont-text">
+                        <h4>Tuc&aacute;n</h4>
+                    </div>
+                </div>
+                <!-- FLORA -->
+
+                <div name="flora" class="cont" data-description="Bellas flores de multiples colores">
+                    <div class="cont-img">
+                        <img loading="lazy" src="img/imgPlace/flora/flor-morada.jpg" alt="img">
+                    </div>
+                    <div class="cont-text">
+                        <h4>Preciosas flores</h4>
+                    </div>
+                </div>
+                <div name="flora" class="cont" data-description="La Verdolaga (Portulaca oleracea) es una planta anual suculenta de la familia Portulacaceae. ">
+                    <div class="cont-img">
+                        <img loading="lazy" src="img/imgPlace/flora/flor-naranja.jpg" alt="img">
+                    </div>
+                    <div class="cont-text">
+                        <h4>Verdolaga</h4>
+                    </div>
+                </div>
+                <div name="flora" class="cont" data-description="Zingiber spectabile es una especie de jengibre verdadero, nativa del archipiélago malayo.">
+                    <div class="cont-img">
+                        <img loading="lazy" src="img/imgPlace/flora/florRoja.jpg" alt="img">
+                    </div>
+                    <div class="cont-text">
+                        <h4>Maraca</h4>
+                    </div>
+                </div>
+                <div name="flora" class="cont" data-description="Cattleya dowiana es una especie de orquídea epifita del género Cattleya. ">
+                    <div class="cont-img">
+                        <img loading="lazy" src="img/imgPlace/flora/orquideas.jpg" alt="img">
+                    </div>
+                    <div class="cont-text">
+                        <h4>Guaria Turrialba</h4>
+                    </div>
+                </div>
+                <div name="flora" class="cont" data-description="Zantedeschia aethiopica, conocida comúnmente como cala, es una planta perenne herbácea de origen sudafricano.">
+                    <div class="cont-img">
+                        <img loading="lazy" src="img/imgPlace/flora/planta.jpg" alt="img">
+                    </div>
+                    <div class="cont-text">
+                        <h4>Cala silvestre</h4>
+                    </div>
+                </div>
+                <div name="flora" class="cont" data-description="Bromelia pinguin, es una especie de planta de la familia de las bromeliáceas.">
+                    <div class="cont-img">
+                        <img loading="lazy" src="img/imgPlace/flora/planta2.jpg" alt="img">
+                    </div>
+                    <div class="cont-text">
+                        <h4>Piñuela</h4>
+                    </div>
+                </div>
+                <div name="flora" class="cont" data-description="Hongo es el nombre común de los organismos del reino Fungi.">
+                    <div class="cont-img">
+                        <img loading="lazy" src="img/imgPlace/flora/plantaHongo.jpg" alt="img">
+                    </div>
+                    <div class="cont-text">
+                        <h4>Hongos silvestres</h4>
+                    </div>
+                </div>
+            </div>
+
+            <div class="more-info-right-under">
+                <div>
+                    <br>
+                    <h2>Descuentos</h2>
+                </div>
+                <div class="more-cont" data-description="Tour El aguacate: 20% de descuento por persona">
+                    <div>
+                        <img loading="lazy" src="img/imgPlace/paisajes/paisaje-arboles.jpg" alt="img">
+                    </div>
+                </div>
+                <div class="more-cont" data-description="Tour El mirador: 10% de descuento por persona">
+                    <div>
+                        <img loading="lazy" src="img/imgPlace/paisajes/vista-Finca.jpg" alt="img">
+                    </div>
+                </div>
+                <div class="more-cont" data-description="Tour El volc&aacute;n: 50% de descuento por persona">
+                    <div>
+                        <img loading="lazy" src="img/imgPlace/paisajes/volcan.jpg" alt="img">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section class="overlay" id="overlay">
+			<div class="container-img">
+				<img src="" alt="">
+			</div>
+			<p class="description"></p>
+		</section>
+
+        <footer class="footer">
+            <div class="related-links">
+                <h4 class="title">Temas relacionados</h4>
+                <a href="http://www.sinac.go.cr/ES/visasilves/Paginas/default.aspx" target="_blank">
+                    <img src="img/svg/trees.svg" alt="" width="32" height="32">
+                    <p>SINAC Vida Silvestre</p>
+                </a>
+                <a href="http://www.sinac.go.cr/ES/ac/accvc/mng/Paginas/default.aspx" target="_blank">
+                    <img src="img/svg/landscape.svg" alt=""  width="32" height="32">
+                    <p>Monumento Guayabo</p>
+                </a>
+                <a href="https://si.cultura.cr/infraestructura/museo-ferroviario-peralta.html" target="_blank">
+                    <img src="img/svg/train.svg" alt=""  width="32" height="32">
+                    <p>Museo Ferroviario Peralta</p>
+                </a>
+                <a href="https://www.tripadvisor.es/Attractions-g309234-Activities-c57-Turrialba_Province_of_Cartago.html" target="_blank">
+                    <img src="img/svg/001-volcan.svg" alt=""  width="32" height="32">
+                    <p>Parques y atracciones naturales de Turrialba</p>
+                </a>
+            </div>
+            <div class="container-personal-contacts">
+                <a href="https://www.linkedin.com/in/mario-quir%C3%B3s-luna-b99050206/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/Takyouku" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://twitter.com/home?lang=es" target="_blank"><i class="fab fa-twitter-square"></i></a>
+            </div>
+            <div class="copyright">
+                <p>Realizado por Mario Quir&oacute;s Luna, para la UCR con fines educativos.</p>
+                <br>
+            </div>
+        </footer>
+    </div>
+    <script type="text/javascript" src="js/filter.js"></script>
+    <script type="text/javascript" src="js/overlay.js"></script>
+    <script type="text/javascript" src="js/scripts.js"></script>
+    <script type="text/javascript" src="js/animate.js"></script>
+</body>
+</html>

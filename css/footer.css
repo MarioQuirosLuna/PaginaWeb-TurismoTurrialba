@@ -1,0 +1,44 @@
+.footer{
+    /* background: var(--color3); */
+    width: 100%;
+    display: inline-block;
+}
+.footer .related-links h4{
+    font-size: 1.5em;
+    margin: 1em;
+}
+.footer .related-links a{
+    display: inline-block;
+    flex-wrap: wrap;
+    margin-left: 4em;
+    padding: 0.3em 0;
+    color: #000;
+    justify-content: center;
+}
+.footer .related-links a img{
+    transition: 1s;
+}
+.footer .related-links a:hover img{
+    transition: 1s;
+    transform: rotate3d(0.1,1,0, 360deg);
+}
+.footer .container-personal-contacts{
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    width: 50%;
+}
+.footer .fab{
+    font-size: 4em;
+    color: #000;
+    margin: 0.3em;
+    transition: 1s;
+}
+.footer .fab:hover{
+    transform: scale(1.5);
+    transition: 1s;
+}
+.footer .copyright{
+    text-align: center;
+    margin-bottom: 0.6em;
+}
