@@ -2,7 +2,7 @@
 Esta es la primer pagina web que elabore. 
 Fue el primer proyecto del curso "Lenguajes para aplicaciones comerciales" de la carrera de Informatica Empresarial de la UCR.
 
-https://res.cloudinary.com/dusx4zdpz/image/upload/v1638990442/portfolio/portfolio/Tours_ri7xsc.png
+![Img preview](https://res.cloudinary.com/dusx4zdpz/image/upload/v1638990442/portfolio/portfolio/Tours_ri7xsc.png)
 
 Creada con HTML, CSS Y Javascript vanilla.
 
